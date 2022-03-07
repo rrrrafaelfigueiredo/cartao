@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.titulo {
+    width:80%;
+    color:#fff;
+    background: #333;
+    text-shadow: 5px 5px 9px #333;
+    margin: 0 auto;
+    text-align: center;
+}
+.contentor {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.cartao {
+    margin-bottom: 100px;
+    margin-top:100px;
+    background-color: red;
+    width:300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #333;
+    box-shadow: 5px 6px 9px #333;
+    
+}
+.destaque {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 5px 5px 9px #333;
+}
+.multimedia {
+    max-width: 100%;
+    border:2rem solid white;
+    object-fit: cover;
+    
+}
+.texto{
+    width:60%;
+    text-align: center;
+    padding:20px;
+    flex: 1 1 200px;
+
+}
+.botao{
+    text-decoration: none;
+    font-size:30px;
+    font-weight: 600;
+    color: white;
+    width:100%;
+    padding: 15px;
+    cursor:pointer;
+    text-align: center;
+    background: black;
+    transition: opacity 0.5s ease-in-out;
+}
+.botao:hover {
+    opacity:0.4;
+}
